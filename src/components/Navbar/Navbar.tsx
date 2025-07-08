@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./Navbar.module.css";
 import "../../index.css";
 import Logo from "../../assets/Logo.png";
