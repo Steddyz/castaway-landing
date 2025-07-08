@@ -4,6 +4,10 @@ import socialIcons3 from "../assets/socialIcons3.png";
 import socialIcons4 from "../assets/socialIcons4.png";
 import socialIcons5 from "../assets/socialIcons5.png";
 
+import episodesImage1 from "../assets/EpisodesImage1.png";
+import episodesImage2 from "../assets/EpisodesImage2.png";
+import episodesImage3 from "../assets/EpisodesImage3.png";
+
 export const socials = [
   {
     id: 1,
@@ -29,5 +33,32 @@ export const socials = [
     id: 5,
     title: "spotify",
     imgUrl: `${socialIcons5}`,
+  },
+];
+
+export const episodesData = [
+  {
+    id: "Episode 3",
+    title: "Should you get outboard audio gear?",
+    description:
+      "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.",
+    optional: "Gear",
+    img: `${episodesImage1}`,
+  },
+  {
+    id: "Episode 2",
+    title: "Mic tricks to take you to the next level",
+    description:
+      "Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.",
+    optional: "Tips & Tricks",
+    img: `${episodesImage2}`,
+  },
+  {
+    id: "Episode 1",
+    title: "The best microphone under $200",
+    description:
+      "With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.",
+    optional: "Gear",
+    img: `${episodesImage3}`,
   },
 ];
