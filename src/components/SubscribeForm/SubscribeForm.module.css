@@ -5,6 +5,13 @@
   height: 387px;
 }
 
+.effect3 {
+  position: absolute;
+
+  top: 4430px;
+  left: 440px;
+}
+
 .subscribeWrapper {
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,7 @@
 import styles from "./SubscribeForm.module.css";
 import Button from "../ui/Button/Button";
 import { useState, type FormEvent } from "react";
+import Effect3 from "../../assets/effects3.png";
 
 const SubscribeForm = () => {
   const [name, setName] = useState("");
@@ -15,6 +16,8 @@ const SubscribeForm = () => {
 
   return (
     <section className={styles.subscribeSection}>
+      <img src={Effect3} alt="effect" className={styles.effect3} />
+
       <div className={styles.subscribeWrapper}>
         <div>
           <p className={styles.subtitle}>Email Newsletter</p>

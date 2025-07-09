@@ -1,11 +1,16 @@
 import styles from "./Hero.module.css";
 import HeroIcon from "../../assets/HeroIcon.png";
+import Effect1 from "../../assets/effects1.png";
+import Effect2 from "../../assets/effects2.png";
 
 import { socials } from "../../const/const";
 
 const Hero = () => {
   return (
     <section className={styles.heroSection}>
+      <img src={Effect1} alt="effect" className={styles.effect1} />
+      <img src={Effect2} alt="effect" className={styles.effect2} />
+
       <div>
         <img src={HeroIcon} alt="HeroIcon" className={styles.heroImage} />
       </div>
