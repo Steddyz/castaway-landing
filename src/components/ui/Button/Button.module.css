@@ -1,10 +1,12 @@
 .buttonWrapper {
   background-color: #118da8;
+  color: #fff;
 
   padding: 15px 20px;
   border-radius: 8px;
   margin-top: auto;
   cursor: pointer;
+  border: none;
 
   transition: all 0.2s ease-in;
 }
