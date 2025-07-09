@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero.tsx";
 import LatestEpisodes from "./components/LatestEpisodes/LatestEpisodes.tsx";
 import Navbar from "./components/Navbar/Navbar.tsx";
 import Reviews from "./components/Reviews/Reviews.tsx";
+import Footer from "./components/Footer/Footer.tsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutPage />
       <SubscribeForm />
       <Reviews />
+      <Footer />
     </>
   );
 }
