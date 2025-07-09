@@ -1,4 +1,5 @@
 .subscribeSection {
+  position: relative;
   margin: 200px 0 200px 0;
   background-color: #000;
   border-radius: 30px;
@@ -8,8 +9,8 @@
 .effect3 {
   position: absolute;
 
-  top: 4430px;
-  left: 440px;
+  top: 330px;
+  left: -40px;
 }
 
 .subscribeWrapper {

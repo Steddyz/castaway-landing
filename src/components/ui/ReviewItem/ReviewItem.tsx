@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./ReviewItem.module.css";
 import Star from "../../../assets/star.png";
 
@@ -10,7 +8,7 @@ interface reviewProps {
   starCount: number;
 }
 
-const ReviewItem = ({ title, name, id, starCount }: reviewProps) => {
+const ReviewItem = ({ title, name, starCount }: reviewProps) => {
   return (
     <div className={styles.card}>
       <div>
