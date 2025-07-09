@@ -62,3 +62,42 @@ export const episodesData = [
     img: `${episodesImage3}`,
   },
 ];
+
+export const reviewData = [
+  {
+    id: 1,
+    title: "I can’t recommend this podcast enough",
+    name: "Betty Lacey",
+    starCount: 5,
+  },
+  {
+    id: 2,
+    title: "Jacob is the best in the business",
+    name: "Adam Driver",
+    starCount: 5,
+  },
+  {
+    id: 3,
+    title: "A wealth of audio knowledge",
+    name: "Marcus Brown",
+    starCount: 5,
+  },
+  {
+    id: 4,
+    title: "Every episode is a gem!",
+    name: "Jessica Knowl",
+    starCount: 5,
+  },
+  {
+    id: 5,
+    title: "Whoa whoa, let me take some notes!",
+    name: "Scott Adams ",
+    starCount: 5,
+  },
+  {
+    id: 6,
+    title: "I’ve upped my game considerably since I started listening",
+    name: "Steven Blast",
+    starCount: 5,
+  },
+];
