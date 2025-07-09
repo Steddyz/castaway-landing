@@ -15,7 +15,7 @@ const SubscribeForm = () => {
   };
 
   return (
-    <section className={styles.subscribeSection}>
+    <section className={styles.subscribeSection} id="contact">
       <img src={Effect3} alt="effect" className={styles.effect3} />
 
       <div className={styles.subscribeWrapper}>

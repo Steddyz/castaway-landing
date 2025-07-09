@@ -14,16 +14,16 @@ const Navbar = () => {
         <nav className={styles.navLinks}>
           <ul>
             <li>
-              <a href="#">Home</a>
+              <a href="#hero">Home</a>
             </li>
             <li>
-              <a href="#">Eposides</a>
+              <a href="#episodes">Eposides</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>

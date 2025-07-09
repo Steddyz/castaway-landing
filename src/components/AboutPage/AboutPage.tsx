@@ -4,7 +4,7 @@ import Arrow from "../../assets/arrow.png";
 
 const AboutPage = () => {
   return (
-    <section className={styles.aboutSection}>
+    <section className={styles.aboutSection} id="about">
       <div className={styles.aboutWrapper}>
         <div>
           <a href="#" className={styles.arrowWrapper}>

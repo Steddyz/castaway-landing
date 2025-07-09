@@ -7,7 +7,7 @@ import EpisodeItem from "../ui/EpisodeItem/EpisodeItem";
 
 const LatestEpisodes = () => {
   return (
-    <section className={styles.latestSection}>
+    <section className={styles.latestSection} id="episodes">
       <div className={styles.titleContainer}>
         <h1 className={styles.title}>Latest episodes</h1>
         <div className={styles.buttonWrapper}>

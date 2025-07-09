@@ -7,7 +7,7 @@ import { socials } from "../../const/const";
 
 const Hero = () => {
   return (
-    <section className={styles.heroSection}>
+    <section className={styles.heroSection} id="hero">
       <img src={Effect1} alt="effect" className={styles.effect1} />
       <img src={Effect2} alt="effect" className={styles.effect2} />
 
