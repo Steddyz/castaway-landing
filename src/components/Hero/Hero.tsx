@@ -14,7 +14,7 @@ const Hero = () => {
       <div>
         <img src={HeroIcon} alt="HeroIcon" className={styles.heroImage} />
       </div>
-      <div>
+      <div className={styles.titleWrapper}>
         <h1 className={styles.title}>
           Take your podcast to the{" "}
           <span className={styles.nextSpan}>next </span>

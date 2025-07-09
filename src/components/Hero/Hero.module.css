@@ -2,7 +2,6 @@
   display: flex;
   position: relative;
   align-items: center;
-  justify-content: space-between;
   padding: 40px;
   overflow: hidden;
 }
@@ -20,13 +19,17 @@
   position: absolute;
 
   width: 160px;
-  top: 480px;
-  left: 855px;
+  top: 482px;
+  left: 740px;
 }
 
 .heroImage {
   height: 873px;
   max-width: 650px;
+}
+
+.titleWrapper {
+  margin-left: 55px;
 }
 
 .title {
